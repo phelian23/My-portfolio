@@ -6,6 +6,7 @@
 body {
   background: #1c1a19;
   margin: 0;
+  overflow: hidden;
 }
 
 a {
@@ -59,7 +60,7 @@ ul {
   justify-content: space-between;
 }
 
-header {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
