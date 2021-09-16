@@ -153,11 +153,11 @@ header {
   }
 
   .container {
-    width: 500px;
+    width: auto;
   }
 
   .section-text {
-    width: 500px;
+    width: auto;
   }
 
   .container li {
