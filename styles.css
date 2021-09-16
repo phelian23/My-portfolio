@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap');
+
+body {
+  background: #1c1a19;
+  margin: 0;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  font-family: inter, sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo {
+  font-family: inter, sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 20px;
+  margin-left: 154px;
+}
+
+.togglebar,
+.toggleImage {
+  display: none;
+}
+
+.headline1 {
+  font-family: Crete Round, sans-serif;
+  font-weight: normal;
+  color: #f55800;
+  font-size: 72px;
+}
+
+.headline2 {
+  font-family: Inter, sans-serif;
+  font-weight: normal;
+  color: #fff;
+  font-size: 32px;
+}
+
+.headline p {
+  font-family: Inter, sans-serif;
+  font-weight: normal;
+  color: #fff;
+  font-size: 20px;
+}
+
+.headline {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3e3c3c;
+}
+
+.nav-items li {
+  display: inline-block;
+  padding: 0 32px;
+}
+
+.nav-items li img {
+  margin-right: 122px;
+}
+
+.backgroundImage {
+  height: 645.51px;
+  width: 633.32px;
+  order: 3;
+  padding-right: 0;
+}
+
+.container {
+  order: 1;
+  max-height: 100vh;
+  align-self: center;
+  margin: 0;
+  width: 6%;
+  box-sizing: border-box;
+}
+
+.section-text {
+  order: 2;
+  width: 39.3%;
+}
+
+@media all and (max-width: 500px) {
+  .togglebar {
+    display: block;
+    margin-right: 24px;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  .logo {
+    margin-left: 12px;
+    padding: 12px;
+  }
+
+  .headline {
+    display: block;
+  }
+
+  .headline1 {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+    margin: 12px 48px;
+    padding-top: 120px;
+  }
+
+  .headline2 {
+    font-family: roboto, sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 12px 48px;
+  }
+
+  .headline p {
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 12px 48px;
+    word-spacing: 0.9px;
+  }
+
+  .backgroundImage {
+    display: none;
+  }
+
+  .toggleImage {
+    display: block;
+    position: absolute;
+    top: 67%;
+    left: 72%;
+  }
+
+  .container {
+    width: auto;
+  }
+
+  .section-text {
+    width: auto;
+  }
+
+  .container li {
+    display: inline-block;
+  }
+
+  .container li img {
+    margin: 0 12px;
+  }
+}
