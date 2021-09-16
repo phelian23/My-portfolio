@@ -1,21 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap');
 
 body {
-  background: #1C1A19;
+  background: #1c1a19;
   margin: 0;
 }
 
 a {
   text-decoration: none;
-  font-family: Inter;
+  font-family: inter, sans-serif;
   font-weight: 600;
-  color: #ffffff;
+  color: #fff;
   font-size: 15px;
 }
 
@@ -24,38 +21,38 @@ ul {
 }
 
 .logo {
-  font-family: Inter;
+  font-family: inter, sans-serif;
   font-weight: 700;
-  color: #ffffff;
+  color: #fff;
   font-size: 20px;
   margin-left: 154px;
 }
 
-.togglebar, .toggleImage {
+.togglebar,
+.toggleImage {
   display: none;
 }
 
 .headline1 {
-  font-family: Crete Round;
+  font-family: Crete Round, sans-serif;
   font-weight: normal;
   color: #f55800;
   font-size: 72px;
 }
 
 .headline2 {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-weight: normal;
-  color: #ffffff;
+  color: #fff;
   font-size: 32px;
 }
 
 .headline p {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-weight: normal;
-  color: #ffffff;
+  color: #fff;
   font-size: 20px;
 }
-
 
 .headline {
   display: flex;
@@ -90,7 +87,7 @@ header {
   max-height: 100vh;
   align-self: center;
   margin: 0;
-  width:6%;
+  width: 6%;
   box-sizing: border-box;
 }
 
@@ -127,7 +124,7 @@ header {
   }
 
   .headline2 {
-    font-family: roboto;
+    font-family: roboto, sans-serif;
     font-style: normal;
     font-size: 24px;
     font-weight: 700;
@@ -136,7 +133,7 @@ header {
   }
 
   .headline p {
-    font-family: poppins;
+    font-family: poppins, sans-serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -158,6 +155,7 @@ header {
   .container {
     width: 500px;
   }
+
   .section-text {
     width: 500px;
   }
@@ -167,6 +165,6 @@ header {
   }
 
   .container li img {
-    margin: 0px 12px;
+    margin: 0 12px;
   }
 }
