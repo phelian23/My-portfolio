@@ -4,7 +4,7 @@
 
 > Creating a website for my portfolio.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./Images/2021-09-18.png)
 
 .
 
