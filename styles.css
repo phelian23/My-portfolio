@@ -67,10 +67,6 @@ nav {
   background-color: #3e3c3c;
 }
 
-.aboutmain img {
-  margin-top: 24px;
-}
-
 .nav-items li {
   display: inline-block;
   padding: 0 32px;
@@ -94,11 +90,6 @@ nav {
   margin: 0;
   width: 6%;
   box-sizing: border-box;
-}
-
-.section-text {
-  order: 2;
-  width: 39.3%;
 }
 
 .work {
@@ -191,20 +182,36 @@ nav {
 
 button {
   padding: 12px;
-  background-color: #f55800;
   font-size: 17px;
   font-family: inter, sans-serif;
-  color: #fff;
   font-weight: bold;
   border: 0;
-  margin: 12px 0;
+  margin: 12px 0 0 0;
+}
+
+button:enabled {
+  background-color: #f55800;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #fff5e1;
+  border: 0.5px solid;
+  border-color: #f55800;
+  color: #f55800;
+}
+
+button:visited {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+button:disabled {
+  color: #5b5957;
+  background-color: #f4f1f0;
 }
 
 .workgrid12 {
-  display: none;
-}
-
-.abtimg1 {
   display: none;
 }
 
@@ -225,10 +232,8 @@ button {
 
 .workgrid1 button {
   padding: 12px;
-  background-color: #f55800;
   font-size: 17px;
   font-family: inter, sans-serif;
-  color: #fff;
   font-weight: bold;
   border: 0;
   width: 100%;
@@ -315,7 +320,7 @@ button {
   color: #fff;
   font-size: 22px;
   padding: 0;
-  padding-top: 12px;
+  padding-top: 32px;
   margin: 0;
 }
 
@@ -343,6 +348,8 @@ button {
   font-style: normal;
   font-weight: normal;
   font-size: 72px;
+  padding: 0;
+  margin: 0;
 }
 
 .aboutp {
@@ -350,17 +357,15 @@ button {
   font-weight: normal;
   font-size: 20px;
   color: #fff;
+  width: 566px;
 }
 
-.aboutmain {
-  display: flex;
-  margin: 120px 0;
-  margin-left: 142px;
-  justify-content: space-between;
-}
-
-.aboutmain2 {
-  width: 50%;
+.aboutmain1 {
+  margin: 130px 0 100px 141px;
+  background: url(Images/Group1.png);
+  background-repeat: no-repeat;
+  background-position: 122% 0;
+  padding: 39px;
 }
 
 .aboutme hr {
@@ -369,8 +374,8 @@ button {
 
 .aboutsub {
   display: flex;
-  margin: 120px;
-  justify-content: space-between;
+  margin: 146px 0 142px 96px;
+  justify-content: space-around;
 }
 
 .aboutsub ul,
@@ -380,6 +385,7 @@ button {
 
 .aboutsub ul {
   padding-right: 120px;
+  margin-right: 72px;
 }
 
 .sub1 {
@@ -387,12 +393,14 @@ button {
   align-items: center;
 }
 
-.aboutsub .sub1 p {
+.aboutsub .sub1 h4 {
   color: #fff;
   font-family: inter, sans-serif;
   font-size: 32px;
   font-weight: normal;
   padding-left: 12px;
+  margin: 0;
+  margin-bottom: 12px;
 }
 
 .form {
@@ -627,17 +635,16 @@ button {
 
   .workgrid12 {
     display: grid;
-    grid-template-columns: 369px;
+    grid-template-columns: 367px;
     grid-template-rows: 435px 435px 435px 435px 435px 435px;
-    margin: 12px 24px;
+    margin: 12px 56px;
+    row-gap: 37px;
   }
 
   .workgrid1 button {
     padding: 12px;
-    background-color: #f55800;
     font-size: 17px;
     font-family: inter, sans-serif;
-    color: #fff;
     font-weight: bold;
     border: 0;
     width: 100%;
@@ -645,6 +652,7 @@ button {
 
   .workgrid4 {
     background: url("Images/ImgPlaceholder4.png");
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -696,7 +704,7 @@ button {
     color: #fff;
     font-size: 22px;
     padding: 0;
-    padding-top: 12px;
+    padding-top: 32px;
     margin: 0;
   }
 
@@ -724,6 +732,7 @@ button {
     font-style: normal;
     font-weight: normal;
     font-size: 72px;
+    margin-bottom: 24px;
   }
 
   .aboutp {
@@ -731,18 +740,19 @@ button {
     font-weight: normal;
     font-size: 20px;
     color: #fff;
-  }
-
-  .aboutmain {
-    display: flex;
-    flex-direction: column;
-    margin: 60px 0 0 0;
+    width: 420px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 12px;
   }
 
   .aboutmain1 {
-    width: auto;
-    margin: 0 60px;
-    padding-bottom: 0;
+    margin: 120px 0 0 0;
+    padding-bottom: 209px;
+    background: url(Images/Group3.png);
+    background-repeat: no-repeat;
+    background-position: 100% 95%;
+    width: 402px;
   }
 
   .aboutme hr {
@@ -773,6 +783,8 @@ button {
 
   .aboutsub ul {
     text-align: center;
+    margin: 0;
+    margin-top: 44px;
   }
 
   .sub1 {
@@ -780,7 +792,7 @@ button {
     align-items: center;
   }
 
-  .aboutsub .sub1 p {
+  .aboutsub .sub1 h4 {
     color: #fff;
     font-family: inter, sans-serif;
     font-size: 32px;
