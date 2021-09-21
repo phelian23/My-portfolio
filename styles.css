@@ -693,6 +693,7 @@ button:disabled {
     padding: 0;
     margin: 0;
     width: auto;
+    text-align: center;
   }
 
   .workgrid12 li {
@@ -816,10 +817,6 @@ button:disabled {
     display: flex;
     flex-direction: column;
     margin: 10px 24px 72px 24px;
-  }
-
-  .formflex h2 {
-    text-align: center;
   }
 
   .name {
