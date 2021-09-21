@@ -417,6 +417,7 @@ button:disabled {
 
 .name1 {
   display: none;
+  margin: 0;
 }
 
 .name {
@@ -684,7 +685,7 @@ button:disabled {
     padding: 0 12px;
   }
 
-  .formflex p {
+  .formflex h2 {
     font-family: inter, sans-serif;
     font-style: normal;
     font-size: 32px;
@@ -806,10 +807,19 @@ button:disabled {
     padding-top: 130px;
   }
 
+  form {
+    align-self: center;
+    width: fit-content;
+  }
+
   .formflex {
     display: flex;
     flex-direction: column;
-    margin: 10px 24px 72px 72px;
+    margin: 10px 24px 72px 24px;
+  }
+
+  .formflex h2 {
+    text-align: center;
   }
 
   .name {
@@ -829,7 +839,7 @@ button:disabled {
     font-size: 15px;
     color: #979493;
     width: 300px;
-    margin-left: 12px;
+    margin-top: 73px;
     padding: 14px;
   }
 
@@ -845,7 +855,7 @@ button:disabled {
     font-size: 15px;
     color: #979493;
     width: 300px;
-    padding: 14px;
+    margin-top: 30px;
   }
 
   .note {
@@ -858,8 +868,13 @@ button:disabled {
     color: #979493;
     width: 300px;
     height: 100px;
-    margin: 24px 0 0 0;
-    padding: 14px;
+    margin-top: 36px;
+    padding: 12px;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
   }
 
   .footer {
@@ -867,7 +882,12 @@ button:disabled {
     justify-content: center;
   }
 
+  .footer ul {
+    padding: 0;
+  }
+
   .footer li {
     display: inline-block;
+    padding: 8px;
   }
 }
