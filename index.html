@@ -200,15 +200,14 @@
         <section class="form">
             <div class="formflex">
                 <h2>I'm always interested<br>in hearing about new<br>projects, so if you'd<br>like to chat please<br>get in touch.</h2>
-            <form>
-                <input class="name1" type="text" placeholder="Full Name" maxlength="30">
-                <input class="name" type="text" placeholder="First Name">
-                <input class="name" type="text" placeholder="Last Name"><br>
-                <input class="email" type="email" placeholder="Email address"><br>
-                <textarea class="note" placeholder="Hello Femi. Glad to see you!" maxlength="500"></textarea><br>
-                <div class="btn"><button type="submit">Get in touch</button></div>
-                
-            </form>
+                <form action="https://formspree.io/f/xpzkbkqy" method="post">
+                    <input name="text" class="name1" type="text" placeholder="Full Name" maxlength="30" required>
+                    <input name="text" class="name" type="text" placeholder="First Name" required>
+                    <input name="text" class="name" type="text" placeholder="Last Name" required><br>
+                    <input name="email" class="email" type="email" placeholder="Email address" required><br>
+                    <textarea class="note" placeholder="Hello Femi. Glad to see you!" maxlength="500" required></textarea><br>
+                    <div class="btn"><button type="submit">Get in touch</button></div>
+                </form>
             </div>
             <hr>
             <div class="footer">
