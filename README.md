@@ -28,8 +28,10 @@
 👤 **Phelian23**
 
 - GitHub: [@githubhandle](https://github.com/phelian23)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+👤 **Chimwemwe**
+
+- GitHub: [@githubhandle](https://github.com/Chimwemwe-127001)
 
 ## 🤝 Contributing
 
