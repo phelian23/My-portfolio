@@ -13,6 +13,16 @@
 - HTML
 - CSS
 
+## Getting Started
+
+# To get a local copy follow the following steps:
+
+- Copy this link https://github.com/phelian23/My-portfolio.git
+- Open your terminal or command line
+- Run git clone and paste the link
+- Open the folder with your code editor
+- Create a branch to work on
+
 ## Authors
 
 👤 **Phelian23**
