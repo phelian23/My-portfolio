@@ -39,6 +39,8 @@ ul {
   font-weight: normal;
   color: #f55800;
   font-size: 72px;
+  line-height: 81px;
+  margin: 162px 0 24px 0;
 }
 
 .headline2 {
@@ -53,6 +55,7 @@ ul {
   font-weight: normal;
   color: #fff;
   font-size: 20px;
+  width: 566px;
 }
 
 .headline {
@@ -84,12 +87,16 @@ nav {
 }
 
 .container {
-  order: 1;
+  order: -1;
   max-height: 100vh;
   align-self: center;
   margin: 0;
   width: 6%;
   box-sizing: border-box;
+}
+
+.container li {
+  margin-bottom: 20px;
 }
 
 .work {
@@ -100,7 +107,7 @@ nav {
 .workhead {
   font-family: crete round, sans-serif;
   font-size: 40px;
-  margin: 24px 141px;
+  margin: 135px 141px 114px 141px;
   display: flex;
   flex-direction: row;
 }
@@ -220,7 +227,7 @@ button:disabled {
   grid-template-columns: 33% 33% 33%;
   grid-template-rows: 435px 435px;
   grid-gap: 37px 24px;
-  margin: 24px 141px;
+  margin: 24px 141px 130px 141px;
   height: 100%;
 }
 
@@ -304,7 +311,7 @@ button:disabled {
   display: inline-block;
 }
 
-.formflex p {
+.formflex h2 {
   font-family: inter, sans-serif;
   font-style: normal;
   font-size: 40px;
@@ -415,12 +422,11 @@ button:disabled {
   justify-content: space-between;
 }
 
-.name1 {
+.name {
   display: none;
-  margin: 0;
 }
 
-.name {
+.name1 {
   border: solid;
   border-top: 0;
   border-right: 0;
@@ -431,8 +437,7 @@ button:disabled {
   font-weight: normal;
   font-size: 15px;
   color: #979493;
-  width: 272px;
-  margin-left: 12px;
+  width: 588px;
   padding: 14px;
 }
 
@@ -447,7 +452,7 @@ button:disabled {
   font-weight: normal;
   font-size: 15px;
   color: #979493;
-  width: 600px;
+  width: 588px;
   padding: 14px;
 }
 
@@ -518,6 +523,7 @@ button:disabled {
     font-weight: 400;
     margin: 12px 48px;
     word-spacing: 0.9px;
+    width: 327px;
   }
 
   .backgroundImage {
