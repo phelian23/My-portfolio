@@ -27,19 +27,16 @@ ul {
   color: #fff;
   font-size: 20px;
   margin-left: 154px;
-}
-
-.logo {
   animation-name: rotatelogo;
   animation-duration: 2s;
   animation-fill-mode: forwards;
 }
 
 @keyframes rotatelogo {
-  25% {transform: rotate(90deg);}
-  50% {transform: rotate(180deg);}
-  75% {transform: rotate(270deg);}
-  100% {transform: rotate(360deg);}
+  25% { transform: rotate(90deg); }
+  50% { transform: rotate(180deg); }
+  75% { transform: rotate(270deg); }
+  100% { transform: rotate(360deg); }
 }
 
 .togglebar,
@@ -236,7 +233,7 @@ button:active {
 }
 
 @keyframes push {
-  50% { transform: scale(0.8);}
+  50% { transform: scale(0.8); }
 }
 
 button:disabled {
