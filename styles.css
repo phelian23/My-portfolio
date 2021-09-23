@@ -29,6 +29,18 @@ ul {
   margin-left: 154px;
 }
 
+.logo {
+  animation-name: rotatelogo;
+  animation-duration: 2s;
+}
+
+@keyframes rotatelogo {
+  25% {transform: rotate(90deg);}
+  50% {transform: rotate(180deg);}
+  75% {transform: rotate(270deg);}
+}
+
+
 .togglebar,
 .toggleImage {
   display: none;
