@@ -219,6 +219,11 @@ button:hover {
 button:active {
   background-color: #e05304;
   color: #f4f1f0;
+  animation: push 0.1s linear 1;
+}
+
+@keyframes push {
+  50% { transform: scale(0.8);}
 }
 
 button:disabled {
@@ -416,6 +421,14 @@ button:disabled {
   padding-left: 12px;
   margin: 0;
   margin-bottom: 12px;
+}
+
+.pop:hover {
+  animation: pop 0.3s linear 1;
+}
+
+@keyframes pop {
+  50% { transform: scale(1.5); }
 }
 
 .form {
