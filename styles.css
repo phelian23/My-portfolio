@@ -547,7 +547,7 @@ button:disabled {
     font-style: normal;
     font-size: 24px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 32px;
     margin: 12px 24px;
   }
 
@@ -598,7 +598,7 @@ button:disabled {
   .workhead2 {
     display: block;
     font-family: crete round, sans-serif;
-    font-size: 36px;
+    font-size: 40px;
     margin: 0 56px;
     padding-top: 120px;
   }
@@ -607,11 +607,11 @@ button:disabled {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 80px 12px 0 12px;
+    margin: 80px 12px 0 24px;
   }
 
   .workimage {
-    width: 350px;
+    width: 367px;
   }
 
   .work1 {
@@ -673,7 +673,7 @@ button:disabled {
 
   .workgrid12 {
     display: grid;
-    grid-template-columns: 325px;
+    grid-template-columns: 350px;
     grid-template-rows: 435px 435px 435px 435px 435px 435px;
     margin: 24px 24px;
     row-gap: 37px;

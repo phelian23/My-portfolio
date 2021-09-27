@@ -15,7 +15,7 @@
 
 ## Getting Started
 
-# To get a local copy follow the following steps:
+> To get a local copy follow the following steps:
 
 - Copy this link https://github.com/phelian23/My-portfolio.git
 - Open your terminal or command line
@@ -27,11 +27,11 @@
 
 👤 **Phelian23**
 
-- GitHub: [@githubhandle](https://github.com/phelian23)
+- GitHub: [@phelian23](https://github.com/phelian23)
 
 👤 **Chimwemwe**
 
-- GitHub: [@githubhandle](https://github.com/Chimwemwe-127001)
+- GitHub: [@Chiwemwe-127001](https://github.com/Chimwemwe-127001)
 
 ## 🤝 Contributing
 
