@@ -528,6 +528,9 @@ button:disabled {
 
   .headline {
     display: block;
+    background: url("Images/Group.png");
+    background-position: 98% 110%;
+    background-repeat: no-repeat;
     padding-bottom: 237px;
   }
 
@@ -535,7 +538,7 @@ button:disabled {
     font-size: 56px;
     font-weight: 400;
     line-height: 64px;
-    margin: 12px 48px;
+    margin: 12px 24px;
     padding-top: 120px;
   }
 
@@ -545,7 +548,7 @@ button:disabled {
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
-    margin: 12px 48px;
+    margin: 12px 24px;
   }
 
   .headline p {
@@ -553,20 +556,13 @@ button:disabled {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
-    margin: 12px 48px;
+    margin: 12px 24px;
     word-spacing: 0.9px;
-    width: 327px;
+    width: auto;
   }
 
   .backgroundImage {
     display: none;
-  }
-
-  .toggleImage {
-    display: block;
-    position: absolute;
-    top: 67%;
-    left: 72%;
   }
 
   .container {
@@ -603,7 +599,7 @@ button:disabled {
     display: block;
     font-family: crete round, sans-serif;
     font-size: 40px;
-    margin: 0 72px;
+    margin: 0 56px;
     padding-top: 120px;
   }
 
@@ -611,11 +607,11 @@ button:disabled {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 80px 24px 0 24px;
+    margin: 80px 12px 0 24px;
   }
 
   .workimage {
-    width: 426px;
+    width: 367px;
   }
 
   .work1 {
@@ -623,6 +619,8 @@ button:disabled {
     flex-direction: column;
     align-items: flex-start;
     width: auto;
+    margin: 0;
+    padding: 0;
   }
 
   .work1 ul {
@@ -654,6 +652,7 @@ button:disabled {
     line-height: 24px;
     margin: 12px 0;
     width: auto;
+    padding: 0;
   }
 
   .work1p p {
@@ -674,9 +673,9 @@ button:disabled {
 
   .workgrid12 {
     display: grid;
-    grid-template-columns: 367px;
+    grid-template-columns: 350px;
     grid-template-rows: 435px 435px 435px 435px 435px 435px;
-    margin: 12px 56px;
+    margin: 24px 24px;
     row-gap: 37px;
   }
 
@@ -780,19 +779,21 @@ button:disabled {
     font-weight: normal;
     font-size: 20px;
     color: #fff;
-    width: 420px;
+    width: auto;
     padding: 0;
+    padding-right: 24px;
     margin: 0;
     margin-bottom: 12px;
   }
 
   .aboutmain1 {
-    margin: 120px 0 0 0;
+    margin: 120px 0 0 24px;
+    padding: 0;
     padding-bottom: 209px;
-    background: url(Images/Group3.png);
+    background: url("Images/Group3.png");
     background-repeat: no-repeat;
     background-position: 100% 95%;
-    width: 402px;
+    width: auto;
   }
 
   .aboutme hr {
@@ -808,21 +809,9 @@ button:disabled {
     margin-bottom: 120px;
   }
 
-  .abtimg {
-    display: none;
-  }
-
-  .abtimg1 {
-    display: block;
-    height: 220px;
-    width: 150px;
-    align-self: flex-end;
-    margin: 0;
-    padding: 0;
-  }
-
   .aboutsub ul {
     text-align: center;
+    padding: 0;
     margin: 0;
     margin-top: 44px;
   }
@@ -854,7 +843,7 @@ button:disabled {
   .formflex {
     display: flex;
     flex-direction: column;
-    margin: 10px 24px 72px 24px;
+    margin: 10px 0 72px 0;
   }
 
   .name {
