@@ -15,7 +15,7 @@
 
 ## Application Page url
 
-https://phelian23@github.io/My-portfolio/
+https://phelian23.github.io/My-portfolio/
 
 
 ## Getting Started
