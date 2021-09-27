@@ -598,9 +598,10 @@ button:disabled {
   .workhead2 {
     display: block;
     font-family: crete round, sans-serif;
-    font-size: 40px;
+    font-size: 36px;
     margin: 0 56px;
     padding-top: 120px;
+    color: #091e42;
   }
 
   .workflex {
