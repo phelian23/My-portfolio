@@ -60,7 +60,7 @@ ul {
   font-size: 32px;
 }
 
-.headline p {
+.headline3 {
   font-family: Inter, sans-serif;
   font-weight: normal;
   color: #fff;
@@ -551,7 +551,7 @@ button:disabled {
     margin: 12px 24px;
   }
 
-  .headline p {
+  .headline3 {
     font-family: poppins, sans-serif;
     font-size: 16px;
     line-height: 24px;
