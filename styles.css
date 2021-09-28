@@ -78,6 +78,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: #3e3c3c;
+  position: fixed;
+  width: 100%;
 }
 
 .nav-items {
