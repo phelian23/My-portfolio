@@ -79,6 +79,7 @@ nav {
   align-items: center;
   background-color: #3e3c3c;
   position: fixed;
+  top: 0;
   width: 100%;
 }
 
