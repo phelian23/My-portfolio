@@ -559,6 +559,10 @@ button:disabled {
     line-height: 44px;
   }
 
+  .close img {
+    display: block;
+  }
+
   .nav-items li img {
     margin-right: 0;
   }
@@ -567,10 +571,6 @@ button:disabled {
     border-bottom: 1px solid #6f6c6b;
     width: 80%;
     padding-bottom: 8px;
-  }
-
-  .close img {
-    display: block;
   }
 
   .close {
