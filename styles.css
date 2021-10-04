@@ -546,7 +546,7 @@ button:disabled {
     padding-top: 20px;
     display: flex;
     width: 80%;
-  } 
+  }
 
   .menu-open li a {
     font-family: roboto, sans-serif;
@@ -560,11 +560,6 @@ button:disabled {
   }
 
   .show-list {
-    margin: 0;
-    padding: 0;
-  }
-
-  .show-list li {
     border-bottom: 1px solid #6f6c6b;
     width: 80%;
     padding-bottom: 8px;
