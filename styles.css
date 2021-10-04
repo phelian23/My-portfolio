@@ -44,6 +44,10 @@ ul {
   display: none;
 }
 
+.close img {
+  display: none;
+}
+
 .headline1 {
   font-family: Crete Round, sans-serif;
   font-weight: normal;
@@ -563,6 +567,10 @@ button:disabled {
     border-bottom: 1px solid #6f6c6b;
     width: 80%;
     padding-bottom: 8px;
+  }
+
+  .close img {
+    display: block;
   }
 
   .close {
