@@ -977,3 +977,22 @@ button:disabled {
     padding: 8px;
   }
 }
+
+.modal-pop-up {
+  width: 100vw;
+  height: 100vh;
+  background-color: #1c1a195b;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.cont-pop-up {
+  position: relative;
+  z-index: 200;
+  width: 80%;
+  margin: 0 auto;
+  height: 80vh;
+  background-color: #fff;
+  margin-top: 4rem;
+}

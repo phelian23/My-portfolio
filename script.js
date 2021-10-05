@@ -20,5 +20,11 @@ navItem.forEach((menuItem) => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-  
+  const section = document.createElement('section');
+  const Body = document.querySelector('body');
+  const contPop = document.createElement('section');
+  contPop.classList.add('cont-pop-up');
+  section.appendChild(contPop);
+  section.classList.add('modal-pop-up');
+  Body.appendChild(section);
 });
