@@ -18,3 +18,7 @@ crossMenu2.addEventListener('click', closeMobMenu);
 navItem.forEach((menuItem) => {
   menuItem.addEventListener('click', closeMobMenu);
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  
+});
