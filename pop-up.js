@@ -118,8 +118,8 @@ document.addEventListener('DOMContentLoaded', () => {
   btnImg1.classList.add('btn-img');
   btnImg2.classList.add('btn-img');
 
-  const source = 'https://github.com';
-  const live = 'https://google.com';
+  const source = 'https://github.com/phelian23/My-portfolio';
+  const live = 'https://github.com/phelian23/My-portfolio';
 
   const workArray = [
     {
