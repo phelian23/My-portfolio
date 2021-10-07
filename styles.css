@@ -576,7 +576,7 @@ button:disabled {
   margin: 0 15px;
 }
 
-.pop-li-det {
+.pop-ul-det li {
   list-style-type: none;
   border: 1px solid #8993a4;
   margin-right: 12px;
@@ -595,7 +595,8 @@ button:disabled {
 }
 
 .modal-pop-img {
-  height: 380px;
+  width: 53%;
+  height: 100%;
 }
 
 .text-cont-pop {
