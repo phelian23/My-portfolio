@@ -518,6 +518,117 @@ button:disabled {
   padding: 0 10px;
 }
 
+.modal-pop-up {
+  width: 100vw;
+  height: 100vh;
+  background-color: #1c1a195b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  transition: 0.25s ease-in-out;
+}
+
+.modal-pop-up.active {
+  transform: scale(1);
+}
+
+.cont-pop-up {
+  position: relative;
+  z-index: 200;
+  width: 80%;
+  margin: 0 auto;
+  height: 80vh;
+  background-color: #fff;
+  margin-top: 4rem;
+}
+
+.pop-heading-det {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+.pop-cont-container {
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.pop-cont-container .close-button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.pop-ul-det {
+  display: flex;
+  padding: 0;
+  margin: 0 15px;
+}
+
+.pop-ul-det li {
+  list-style-type: none;
+  border: 1px solid #8993a4;
+  margin-right: 12px;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  color: #3c3a39;
+}
+
+.modal-cont-con {
+  display: flex;
+  padding: 24px;
+  justify-content: space-between;
+}
+
+.modal-pop-img {
+  width: 53%;
+  height: 100%;
+}
+
+.text-cont-pop {
+  width: 40%;
+  margin-right: 12px;
+  padding: 0;
+}
+
+.pop-text-det {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #344563;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-modal {
+  margin-right: 7px;
+}
+
+.modal-btn {
+  font-size: 17px;
+}
+
+.btn-img {
+  margin-left: 16px;
+  height: 20px;
+}
+
 @media all and (max-width: 500px) {
   .togglebar {
     display: block;
@@ -975,5 +1086,32 @@ button:disabled {
   .footer li {
     display: inline-block;
     padding: 8px;
+  }
+
+  .cont-pop-up {
+    width: 90%;
+    height: 90vh;
+    overflow: auto;
+  }
+
+  .pop-ul-det {
+    margin-top: 20px;
+  }
+
+  .modal-cont-con {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .modal-pop-img {
+    width: 90%;
+    height: 220px;
+    margin-bottom: 20px;
+  }
+
+  .text-cont-pop {
+    width: 90%;
+    margin: 0;
+    padding: 0;
   }
 }
