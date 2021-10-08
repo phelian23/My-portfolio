@@ -29,4 +29,9 @@ form.addEventListener('submit', (event) => {
   if (emailLower !== email.value) {
     errorMessage = 'email has to be in lower case';
   }
+
+  if (errorMessage.length > 0) {
+    event.preventDefault();
+    errorMsg.innerText = errorMessage;
+  }
 });
