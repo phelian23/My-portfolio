@@ -12,6 +12,7 @@
 
 - HTML
 - CSS
+- JavaScript
 
 ## Application Page url
 
@@ -37,6 +38,10 @@ https://phelian23.github.io/My-portfolio/
 👤 **Chimwemwe**
 
 - GitHub: [@Chiwemwe-127001](https://github.com/Chimwemwe-127001)
+
+👤 **Ntazama**
+
+- GitHub: [@ntazelo](https://github.com/ntazelo)
 
 ## 🤝 Contributing
 

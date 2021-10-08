@@ -18,3 +18,20 @@ crossMenu2.addEventListener('click', closeMobMenu);
 navItem.forEach((menuItem) => {
   menuItem.addEventListener('click', closeMobMenu);
 });
+
+const form = document.getElementById('form');
+const email = document.querySelector('.email');
+const errorMsg = document.querySelector('small');
+
+form.addEventListener('submit', (event) => {
+  let errorMessage = '';
+  const emailLower = email.value.toLowerCase();
+  if (emailLower !== email.value) {
+    errorMessage = 'email has to be in lower case';
+  }
+
+  if (errorMessage.length > 0) {
+    event.preventDefault();
+    errorMsg.innerText = errorMessage;
+  }
+});

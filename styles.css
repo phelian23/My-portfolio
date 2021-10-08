@@ -479,6 +479,14 @@ button:disabled {
   padding: 14px;
 }
 
+small {
+  font-family: roboto, sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  color: #333;
+  margin: 24px 0;
+}
+
 .email {
   border: solid;
   border-top: 0;
