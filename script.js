@@ -35,3 +35,17 @@ form.addEventListener('submit', (event) => {
     errorMsg.innerText = errorMessage;
   }
 });
+
+const formData = {
+  name: document.querySelector('.name1').value,
+  email: document.querySelector('.email').value,
+  message: document.querySelector('.note').value,
+};
+let getFormData = window.localStorage.getItem('formData');
+if (getFormData) {
+  getFormData = JSON.parse(getFormData);
+  document.querySelector('.name1').value = getFormData.name;
+  document.querySelector('.email').value = getFormData.email;
+  document.querySelector('.note').value = getFormData.message;
+}
+});
