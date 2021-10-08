@@ -35,3 +35,24 @@ form.addEventListener('submit', (event) => {
     errorMsg.innerText = errorMessage;
   }
 });
+
+const formData = {
+  name: document.querySelector('.name1').value,
+  email: document.querySelector('.email').value,
+  message: document.querySelector('.note').value,
+};
+let getFormData = window.localStorage.getItem('formData');
+if (getFormData) {
+  getFormData = JSON.parse(getFormData);
+  document.querySelector('.name1').value = getFormData.name;
+  document.querySelector('.email').value = getFormData.email;
+  document.querySelector('.note').value = getFormData.message;
+}
+Array.from(form).forEach((element) => {
+  element.addEventListener('input', () => {
+    formData.name = document.querySelector('.name1').value;
+    formData.email = document.querySelector('.email').value;
+    formData.message = document.querySelector('.note').value;
+    localStorage.setItem('formData', JSON.stringify(formData));
+  });
+});
