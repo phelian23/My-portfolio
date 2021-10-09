@@ -53,6 +53,6 @@ Array.from(form).forEach((element) => {
     formData.name = document.querySelector('.name1').value;
     formData.email = document.querySelector('.email').value;
     formData.message = document.querySelector('.note').value;
-    localStorage.setItem('formData', JSON.stringify(formData));
+    localStorage.setItem('formData', JSON.stringify("formData"));
   });
 });
