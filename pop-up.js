@@ -17,27 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const workBtn = document.createElement('button');
   const workGrid = document.createElement('div');
 
-  const popDiv = document.createElement('div');
-  const contPop = document.createElement('div');
-  const header1 = document.createElement('header');
-  const popCont = document.createElement('div');
-  const heading = document.createElement('h3');
-  const projectText = document.createElement('p');
-  const projectLang = document.createElement('ul');
-  const projectLangList1 = document.createElement('li');
-  const projectLangList2 = document.createElement('li');
-  const projectLangList3 = document.createElement('li');
-  const closeButton = document.createElement('button');
-  const modalImg = document.createElement('img');
-  const textCont = document.createElement('div');
-  const textBtnCont = document.createElement('div');
-  const textBtn1 = document.createElement('button');
-  const textBtn2 = document.createElement('button');
-  const btnLink1 = document.createElement('a');
-  const btnLink2 = document.createElement('a');
-  const btnImg1 = document.createElement('img');
-  const btnImg2 = document.createElement('img');
-
   section1.appendChild(desWorkFl);
   section1.appendChild(workGrid);
   desWorkFl.appendChild(workFlImg);
@@ -54,30 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
   workLangList2.appendChild(workLangList2P);
   workLangList3.appendChild(workLangList3P);
   workLangList4.appendChild(workLangList4P);
-
-  contPop.classList.add('cont-pop-up');
-  popDiv.id = ('modal-pop-up');
-  popDiv.appendChild(contPop);
-  popDiv.classList.add('modal-pop-up');
-  section1.appendChild(popDiv);
-  contPop.appendChild(header1);
-  header1.appendChild(heading);
-  header1.appendChild(closeButton);
-  contPop.appendChild(projectLang);
-  projectLang.appendChild(projectLangList1);
-  projectLang.appendChild(projectLangList2);
-  projectLang.appendChild(projectLangList3);
-  contPop.appendChild(popCont);
-  popCont.appendChild(modalImg);
-  popCont.appendChild(textCont);
-  textCont.appendChild(projectText);
-  textCont.appendChild(textBtnCont);
-  textBtnCont.appendChild(textBtn1);
-  textBtnCont.appendChild(textBtn2);
-  textBtn1.appendChild(btnLink1);
-  textBtn2.appendChild(btnLink2);
-  btnLink2.appendChild(btnImg2);
-  btnLink1.appendChild(btnImg1);
 
   desWorkFl.classList.add('workflex');
   workFlImg.classList.add('workimage');
@@ -99,70 +54,56 @@ document.addEventListener('DOMContentLoaded', () => {
   workLangList3P.textContent = 'bootstrap';
   workLangList4P.textContent = 'Ruby';
   workBtn.textContent = 'See Project';
-  workBtn.dataset.modalTarget = '#modal-pop-up';
-
-  header1.classList.add('pop-cont-container');
-  heading.classList.add('pop-heading-det');
-  projectText.classList.add('pop-text-det');
-  projectLang.classList.add('pop-ul-det');
-  closeButton.dataset.modalClose = '';
-  closeButton.classList.add('close-button');
-  modalImg.classList.add('modal-pop-img');
-  popCont.classList.add('modal-cont-con');
-  textCont.classList.add('text-cont-pop');
-  textBtnCont.classList.add('text-btn-con');
-  textBtn1.classList.add('btn-modal');
-  textBtn2.classList.add('btn-modal');
-  btnLink1.classList.add('modal-btn');
-  btnLink2.classList.add('modal-btn');
-  btnImg1.classList.add('btn-img');
-  btnImg2.classList.add('btn-img');
-
-  const source = 'https://github.com/phelian23/My-portfolio';
-  const live = 'https://github.com/phelian23/My-portfolio';
+  workBtn.setAttribute('id', 'text-0');
 
   const workArray = [
     {
-      title: 'Professional Art',
-      description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-      languages: ['html', 'Bootstrap', 'Ruby'],
-      livelink: live,
-      sourcelink: source,
+      title: 'To Do List',
+      description: 'In this project a simple HTML list of To Do tasks  was built. The list was styled according to specifications, functionality was added to make it interactive, and the the CRUD (create, update, delete) methods was implemented. This simple web page was built using webpack and served by a webpack dev server.',
+      languages: ['html', 'JavaScript', 'Css'],
+      livelink: 'https://zen-perlman-c7756d.netlify.app/',
+      sourcelink: 'https://github.com/phelian23/to-do-list',
+      image: 'Images/2021-10-27.png',
     },
     {
-      title: 'Professional Art',
-      description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-      languages: ['html', 'Bootstrap', 'Ruby '],
-      livelink: live,
-      sourcelink: source,
+      title: 'Awesome Books',
+      description: 'In this project, a single page website that allows users to add/remove books from a list was built. Built with JavaScript and utilizes LocalStorage.',
+      languages: ['html', 'JavaScript', 'CSS '],
+      livelink: 'https://phelian23.github.io/awesome-books/',
+      sourcelink: 'https://github.com/phelian23/awesome-books',
+      image: 'Images/2021-10-21.png',
     },
     {
-      title: 'Data Dashboard',
-      description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+      title: 'Capstone Project-1',
+      description: 'This project is a supposed website for the Afro Beats Festival(Imaginary). It consists of two pages and is responsive to mobile and desktop screens.',
       languages: ['html', 'Bootstrap', 'Ruby'],
-      livelink: live,
-      sourcelink: source,
-    },
-    {
-      title: 'Website portfolio',
-      description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-      languages: ['html', 'Bootstrap', 'Ruby'],
-      livelink: live,
-      sourcelink: source,
+      livelink: 'https://phelian23.github.io/capstone-1/',
+      sourcelink: 'https://github.com/phelian23/capstone-1',
+      image: 'Images/2021-10-15.png',
     },
     {
       title: 'Website portfolio',
       description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
       languages: ['html', 'Bootstrap', 'Ruby'],
-      livelink: live,
-      sourcelink: source,
+      livelink: 'https://github.com/phelian23',
+      sourcelink: 'https://github.com/phelian23',
+      image: 'Images/SnapshootPortfolio.png',
     },
     {
       title: 'Website portfolio',
       description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
       languages: ['html', 'Bootstrap', 'Ruby'],
-      livelink: live,
-      sourcelink: source,
+      livelink: 'https://github.com/phelian23',
+      sourcelink: 'https://github.com/phelian23',
+      image: 'Images/SnapshootPortfolio.png',
+    },
+    {
+      title: 'Website portfolio',
+      description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+      languages: ['html', 'Bootstrap', 'Ruby'],
+      livelink: 'https://github.com/phelian23',
+      sourcelink: 'https://github.com/phelian23',
+      image: 'Images/SnapshootPortfolio.png',
     },
 
   ];
@@ -171,6 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const work = workArray[i];
     let technologieslang = '';
     let popLang = '';
+    const index = i + 1;
 
     for (let j = 0; j < work.languages.length; j += 1) {
       const lang = work.languages[j];
@@ -186,35 +128,77 @@ document.addEventListener('DOMContentLoaded', () => {
             <ul>
               ${technologieslang}
              </ul>
-             <button data-modal-target="#modal-pop-up" type="button">See Project</button>
+             <button id = "text-${index}" type="button">See Project</button>
         </div>
         `;
 
-    heading.textContent = work.title;
-    projectText.textContent = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.";
-    closeButton.innerHTML = '&times;';
-    projectLang.innerHTML = popLang;
-    modalImg.src = 'Images/SnapshootPortfolio.png';
-    btnLink1.textContent = 'See Live';
-    btnLink1.href = work.livelink;
-    btnImg1.src = 'Images/Icon-Export.png';
-    btnLink2.textContent = 'See Source';
-    btnLink2.href = work.sourcelink;
-    btnImg2.src = 'Images/github.png';
+    document.querySelector('.work').innerHTML
+    += `
+    <div id="modal-pop-up-${index}" class="modal-pop-up">
+    <div class="cont-pop-up">
+        <header class="pop-cont-container">
+            <h3 class="pop-heading-det">${work.title}</h3>
+            <button data-modal-close="" class="close-button">×</button>
+        </header>
+        <ul class="pop-ul-det">
+            ${popLang}
+        </ul>
+        <div class="modal-cont-con">
+            <img class="modal-pop-img" src="${work.image}">
+            <div class="text-cont-pop">
+                <p class="pop-text-det">${work.description}</p>
+                <div class="text-btn-con">
+                    <button class="btn-modal"><a class="modal-btn" href="${work.livelink}">See Live</a></button>
+                    <button class="btn-modal"><a class="modal-btn" href="${work.sourcelink}">See Source</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>`;
   }
 
-  const openModal = document.querySelectorAll('[data-modal-target]');
+  document.querySelector('.work').innerHTML
+    += `
+    <div id="modal-pop-up-0" class="modal-pop-up">
+    <div class="cont-pop-up">
+        <header class="pop-cont-container">
+            <h3 class="pop-heading-det">Multi-Post Stories</h3>
+            <button data-modal-close="" class="close-button">×</button>
+        </header>
+        <ul class="pop-ul-det">
+        <li>css</li>
+        <li>html</li>
+        <li>bootstrap</li>
+        <li>Ruby</li>
+        </ul>
+        <div class="modal-cont-con">
+            <img class="modal-pop-img" src="Images/SnapshootPortfolio.png">
+            <div class="text-cont-pop">
+                <p class="pop-text-det">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                <div class="text-btn-con">
+                    <button class="btn-modal"><a class="modal-btn" href="https://github.com/phelian23">See Live</a></button>
+                    <button class="btn-modal"><a class="modal-btn" href="https://github.com/phelian23">See Source</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>`;
 
   function openPopUp(popUpMod) {
     popUpMod.classList.add('active');
   }
 
-  openModal.forEach((button) => {
-    button.addEventListener('click', () => {
-      const popUpMod = document.querySelector(button.dataset.modalTarget);
-      openPopUp(popUpMod);
+  for (let i = 0; i <= workArray.length; i += 1) {
+    const index = i;
+    const openModal = document.querySelectorAll(`#text-${index}`);
+
+    openModal.forEach((button) => {
+      button.addEventListener('click', () => {
+        const popUpMod = document.querySelector(`#modal-pop-up-${index}`);
+        openPopUp(popUpMod);
+      });
     });
-  });
+  }
 
   const closeModal = document.querySelectorAll('[data-modal-close]');
 

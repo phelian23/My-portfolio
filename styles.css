@@ -328,7 +328,7 @@ button:disabled {
   font-weight: normal;
   font-size: 17px;
   line-height: 24px;
-  color: #fff;
+  color: rgba(244, 250, 252, 0.993);
   margin: 12px 0;
   padding: 0 12px;
 }
