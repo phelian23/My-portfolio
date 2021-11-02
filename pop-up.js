@@ -47,11 +47,11 @@ document.addEventListener('DOMContentLoaded', () => {
   workGrid.classList.add('workgrid12');
 
   workFlImg.src = 'Images/ImgPlaceholder.png';
-  mainWorkHead.textContent = 'Multi-Post Stories';
-  mainWorkText.textContent = "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.";
+  mainWorkHead.textContent = 'Capstone Project-1';
+  mainWorkText.textContent = 'This project is a supposed website for the Afro Beats Festival(Imaginary). It consists of two pages and is responsive to mobile and desktop screens.';
   workLangList1P.textContent = 'css';
   workLangList2P.textContent = 'html';
-  workLangList3P.textContent = 'bootstrap';
+  workLangList3P.textContent = 'JavaScript';
   workLangList4P.textContent = 'Ruby';
   workBtn.textContent = 'See Project';
   workBtn.setAttribute('id', 'text-0');
@@ -74,12 +74,12 @@ document.addEventListener('DOMContentLoaded', () => {
       image: 'Images/2021-10-21.png',
     },
     {
-      title: 'Capstone Project-1',
-      description: 'This project is a supposed website for the Afro Beats Festival(Imaginary). It consists of two pages and is responsive to mobile and desktop screens.',
+      title: 'Multi-Post Stories',
+      description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
       languages: ['html', 'Bootstrap', 'Ruby'],
-      livelink: 'https://phelian23.github.io/capstone-1/',
-      sourcelink: 'https://github.com/phelian23/capstone-1',
-      image: 'Images/2021-10-15.png',
+      livelink: 'https://github.com/phelian23',
+      sourcelink: 'https://github.com/phelian23',
+      image: 'Images/SnapshootPortfolio.png',
     },
     {
       title: 'Website portfolio',
@@ -162,19 +162,19 @@ document.addEventListener('DOMContentLoaded', () => {
     <div id="modal-pop-up-0" class="modal-pop-up">
     <div class="cont-pop-up">
         <header class="pop-cont-container">
-            <h3 class="pop-heading-det">Multi-Post Stories</h3>
+            <h3 class="pop-heading-det">Capstone Project-1</h3>
             <button data-modal-close="" class="close-button">×</button>
         </header>
         <ul class="pop-ul-det">
         <li>css</li>
         <li>html</li>
-        <li>bootstrap</li>
+        <li>JavaScript</li>
         <li>Ruby</li>
         </ul>
         <div class="modal-cont-con">
-            <img class="modal-pop-img" src="Images/SnapshootPortfolio.png">
+            <img class="modal-pop-img" src="Images/2021-10-15.png">
             <div class="text-cont-pop">
-                <p class="pop-text-det">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                <p class="pop-text-det">This project is a supposed website for the Afro Beats Festival(Imaginary). It consists of two pages and is responsive to mobile and desktop screens.</p>
                 <div class="text-btn-con">
                     <button class="btn-modal"><a class="modal-btn" href="https://github.com/phelian23">See Live</a></button>
                     <button class="btn-modal"><a class="modal-btn" href="https://github.com/phelian23">See Source</a></button>
