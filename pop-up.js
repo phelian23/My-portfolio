@@ -176,8 +176,8 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="text-cont-pop">
                 <p class="pop-text-det">This project is a supposed website for the Afro Beats Festival(Imaginary). It consists of two pages and is responsive to mobile and desktop screens.</p>
                 <div class="text-btn-con">
-                    <button class="btn-modal"><a class="modal-btn" href="https://github.com/phelian23">See Live</a></button>
-                    <button class="btn-modal"><a class="modal-btn" href="https://github.com/phelian23">See Source</a></button>
+                    <button class="btn-modal"><a class="modal-btn" href="https://phelian23.github.io/capstone-1/">See Live</a></button>
+                    <button class="btn-modal"><a class="modal-btn" href="https://github.com/phelian23/capstone-1">See Source</a></button>
                 </div>
             </div>
         </div>
