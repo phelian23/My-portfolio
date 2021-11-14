@@ -74,12 +74,12 @@ document.addEventListener('DOMContentLoaded', () => {
       image: 'Images/2021-10-21.png',
     },
     {
-      title: 'Multi-Post Stories',
-      description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-      languages: ['html', 'Bootstrap', 'Ruby'],
-      livelink: 'https://github.com/phelian23',
-      sourcelink: 'https://github.com/phelian23',
-      image: 'Images/SnapshootPortfolio.png',
+      title: 'Leaderboard',
+      description: "This leaderboard website allows scores submitted by different players to be displayed. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.",
+      languages: ['html', 'Javascript', 'Css'],
+      livelink: 'https://phelian23.github.io/leaderboard/',
+      sourcelink: 'https://github.com/phelian23/leaderboard',
+      image: 'Images/Capture1.PNG',
     },
     {
       title: 'Website portfolio',
