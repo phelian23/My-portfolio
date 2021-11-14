@@ -58,6 +58,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const workArray = [
     {
+      title: 'Leaderboard',
+      description: "This leaderboard website allows scores submitted by different players to be displayed. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.",
+      languages: ['html', 'Javascript', 'Css'],
+      livelink: 'https://phelian23.github.io/leaderboard/',
+      sourcelink: 'https://github.com/phelian23/leaderboard',
+      image: 'Images/Capture1.PNG',
+    },
+    {
       title: 'To Do List',
       description: 'In this project a simple HTML list of To Do tasks  was built. The list was styled according to specifications, functionality was added to make it interactive, and the the CRUD (create, update, delete) methods was implemented. This simple web page was built using webpack and served by a webpack dev server.',
       languages: ['html', 'JavaScript', 'Css'],
@@ -72,14 +80,6 @@ document.addEventListener('DOMContentLoaded', () => {
       livelink: 'https://phelian23.github.io/awesome-books/',
       sourcelink: 'https://github.com/phelian23/awesome-books',
       image: 'Images/2021-10-21.png',
-    },
-    {
-      title: 'Leaderboard',
-      description: "This leaderboard website allows scores submitted by different players to be displayed. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.",
-      languages: ['html', 'Javascript', 'Css'],
-      livelink: 'https://phelian23.github.io/leaderboard/',
-      sourcelink: 'https://github.com/phelian23/leaderboard',
-      image: 'Images/Capture1.PNG',
     },
     {
       title: 'Website portfolio',
