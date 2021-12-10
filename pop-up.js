@@ -47,16 +47,24 @@ document.addEventListener('DOMContentLoaded', () => {
   workGrid.classList.add('workgrid12');
 
   workFlImg.src = 'Images/ImgPlaceholder.png';
-  mainWorkHead.textContent = 'Capstone Project-1';
-  mainWorkText.textContent = 'This project is a supposed website for the Afro Beats Festival(Imaginary). It consists of two pages and is responsive to mobile and desktop screens.';
-  workLangList1P.textContent = 'css';
-  workLangList2P.textContent = 'html';
+  mainWorkHead.textContent = 'Bookstore';
+  mainWorkText.textContent = 'This project is used to display a list of books. Users can add/remove books from the list. It is built with ReactJS and Redux. It implements Routing, and Components concepts';
+  workLangList1P.textContent = 'ReactJs';
+  workLangList2P.textContent = 'Redux';
   workLangList3P.textContent = 'JavaScript';
-  workLangList4P.textContent = 'Ruby';
+  workLangList4P.textContent = 'CSS';
   workBtn.textContent = 'See Project';
   workBtn.setAttribute('id', 'text-0');
 
   const workArray = [
+    {
+      title: 'Math Magician',
+      description: "'Math magicians' is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations. and read a random math-related quote.",
+      languages: ['ReactJs', 'JavaScript', 'Css'],
+      livelink: 'https://phelian23.github.io/math-magician/',
+      sourcelink: 'https://github.com/phelian23/math-magician',
+      image: 'Images/MathMagic.PNG',
+    },
     {
       title: 'Leaderboard',
       description: "This leaderboard website allows scores submitted by different players to be displayed. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.",
@@ -64,6 +72,22 @@ document.addEventListener('DOMContentLoaded', () => {
       livelink: 'https://phelian23.github.io/leaderboard/',
       sourcelink: 'https://github.com/phelian23/leaderboard',
       image: 'Images/Capture1.PNG',
+    },
+    {
+      title: 'Afrobeat Festival',
+      description: "This project is a supposed website for the Afro Beats Festival(Imaginary). It consists of two pages and is responsive to mobile and desktop screens.",
+      languages: ['html', 'Bootstrap', 'JavaScript'],
+      livelink: 'https://phelian23.github.io/capstone-1/',
+      sourcelink: 'https://github.com/phelian23/capstone-1',
+      image: 'Images/2021-10-15.png',
+    },
+    {
+      title: 'Movies',
+      description: "In this project, we build a movie display site, using the TVmazAPI to get current streaming movies, which allows users to add comments and likes. And using the Microverse involvement API to save data such as likes and comments.",
+      languages: ['JavaScript', 'webpack', 'CSS'],
+      livelink: 'https://timowest12.github.io/JS-capstone/dist',
+      sourcelink: 'https://github.com/phelian23/JS-capstone',
+      image: 'Images/moviejs.PNG',
     },
     {
       title: 'To Do List',
@@ -81,31 +105,6 @@ document.addEventListener('DOMContentLoaded', () => {
       sourcelink: 'https://github.com/phelian23/awesome-books',
       image: 'Images/2021-10-21.png',
     },
-    {
-      title: 'Website portfolio',
-      description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-      languages: ['html', 'Bootstrap', 'Ruby'],
-      livelink: 'https://github.com/phelian23',
-      sourcelink: 'https://github.com/phelian23',
-      image: 'Images/SnapshootPortfolio.png',
-    },
-    {
-      title: 'Website portfolio',
-      description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-      languages: ['html', 'Bootstrap', 'Ruby'],
-      livelink: 'https://github.com/phelian23',
-      sourcelink: 'https://github.com/phelian23',
-      image: 'Images/SnapshootPortfolio.png',
-    },
-    {
-      title: 'Website portfolio',
-      description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-      languages: ['html', 'Bootstrap', 'Ruby'],
-      livelink: 'https://github.com/phelian23',
-      sourcelink: 'https://github.com/phelian23',
-      image: 'Images/SnapshootPortfolio.png',
-    },
-
   ];
 
   for (let i = 0; i < workArray.length; i += 1) {
@@ -162,22 +161,22 @@ document.addEventListener('DOMContentLoaded', () => {
     <div id="modal-pop-up-0" class="modal-pop-up">
     <div class="cont-pop-up">
         <header class="pop-cont-container">
-            <h3 class="pop-heading-det">Capstone Project-1</h3>
+            <h3 class="pop-heading-det">Bookstore</h3>
             <button data-modal-close="" class="close-button">×</button>
         </header>
         <ul class="pop-ul-det">
-        <li>css</li>
-        <li>html</li>
+        <li>ReactJs</li>
+        <li>Redux</li>
         <li>JavaScript</li>
-        <li>Ruby</li>
+        <li>Css</li>
         </ul>
         <div class="modal-cont-con">
-            <img class="modal-pop-img" src="Images/2021-10-15.png">
+            <img class="modal-pop-img" src="Images/bookPage.PNG">
             <div class="text-cont-pop">
-                <p class="pop-text-det">This project is a supposed website for the Afro Beats Festival(Imaginary). It consists of two pages and is responsive to mobile and desktop screens.</p>
+                <p class="pop-text-det">This project is used to display a list of books. Users can add/remove books from the list. It is built with ReactJS and Redux. It implements Routing, and Components concepts</p>
                 <div class="text-btn-con">
-                    <button class="btn-modal"><a class="modal-btn" href="https://phelian23.github.io/capstone-1/">See Live</a></button>
-                    <button class="btn-modal"><a class="modal-btn" href="https://github.com/phelian23/capstone-1">See Source</a></button>
+                    <button class="btn-modal"><a class="modal-btn" href="https://61b33c1f0f2a25000754213b--competent-chandrasekhar-b69b93.netlify.app/">See Live</a></button>
+                    <button class="btn-modal"><a class="modal-btn" href="https://github.com/phelian23/bookstore">See Source</a></button>
                 </div>
             </div>
         </div>
